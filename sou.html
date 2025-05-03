@@ -1,0 +1,137 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Resources for Environmental Conservation</title>  
+  <link rel="stylesheet" href="sou.css" />  
+  <style>
+    .navbar {
+      background-color: #388e3c;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+    .logo-link {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex: 1;
+    }
+    .navbar li {
+      margin: 0;
+    }
+    .navbar a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 25px;
+      transition: background 0.3s;
+      font-weight: bold;
+    }
+    .navbar a:hover, .navbar a.active {
+      background-color: #2e7d32;
+    }
+  </style>
+</head>  
+<body>  
+
+<nav class="navbar">
+  <a href="index.html" class="logo-link">
+    <img src="1000.jpg" class="logo">
+  </a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="what.html">About</a></li>
+    <li><a href="we.html">What we do</a></li>
+    <li><a href="sou.html" class="active">Resources</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  <header>  
+    <h1>Resources for Environmental Conservation</h1>  
+    <p>Your guide to protecting our planet</p>  
+  </header>  
+
+  <section class="resources">  
+    <h2>Understanding Environmental Conservation</h2>  
+    <ul>  
+      <li><strong>Definition:</strong> Protecting and preserving the environment for current and future generations.</li>  
+      <li><strong>Focus Areas:</strong> Climate change, deforestation, water pollution, soil erosion, biodiversity, marine ecosystems.</li>  
+    </ul>  
+
+    <h2>Promoting Conservation</h2>  
+    <ul>  
+      <li>Reduce, Reuse, Recycle: <a href="https://www.epa.gov/recycle" target="_blank">EPA Recycling Guide</a></li>  
+      <li>Use Renewable Energy: <a href="https://www.energy.gov/eere/renewables" target="_blank">Department of Energy</a></li>  
+      <li>Conserve Water: <a href="https://water.org/" target="_blank">Water.org</a></li>  
+      <li>Support Sustainable Agriculture: <a href="https://organicconsumers.org/" target="_blank">Organic Consumers Association</a></li>  
+      <li>Get Involved: <a href="https://www.volunteermatch.org/" target="_blank">Volunteer Opportunities</a></li>  
+    </ul>  
+
+    <h2>Key Challenges & Solutions</h2>  
+    <h3>Climate Change</h3>  
+    <ul>  
+      <li>Transition to renewable energy: <a href="https://www.solarpowerworldonline.com/" target="_blank">Solar Resources</a></li>  
+      <li>Energy efficiency: <a href="https://www.energystar.gov/" target="_blank">Energy Star</a></li>  
+      <li>Carbon capture: <a href="https://www.iea.org/reports/direct-air-capture" target="_blank">IEA Technology</a></li>  
+    </ul>  
+    <h3>Biodiversity & Ecosystems</h3>  
+    <ul>  
+      <li>Sustainable agriculture: <a href="https://www.regenerativeagriculturedefinition.com/" target="_blank">Regenerative Agriculture</a></li>  
+      <li>Wastewater treatment: <a href="https://www.epa.gov/water" target="_blank">EPA Water Programs</a></li>  
+      <li>Community conservation: <a href="https://www.nature.org/" target="_blank">The Nature Conservancy</a></li>  
+    </ul>  
+    <h3>Pollution & Deforestation</h3>  
+    <ul>  
+      <li>Waste management: <a href="https://www.wm.com/" target="_blank">Waste Management Resources</a></li>  
+      <li>Reforestation: <a href="https://onetreeplanted.org/" target="_blank">One Tree Planted</a></li>  
+    </ul>  
+    <h3>Water & Soil Preservation</h3>  
+    <ul>  
+      <li>Water-saving tips: <a href="https://www.epa.gov/watersense" target="_blank">EPA WaterSense</a></li>  
+      <li>Soil erosion control: <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/" target="_blank">NRC Soil Resources</a></li>  
+    </ul>  
+
+    <h2>Community Action & Future Plans</h2>  
+    <ul>  
+      <li>Reduce energy use: <a href="https://climate.nasa.gov/" target="_blank">NASA Climate</a></li>  
+      <li>Public transport: <a href="https://www.transitapp.com/" target="_blank">Transit App</a></li>  
+      <li>Organize clean-ups: <a href="https://www.kab.org/" target="_blank">Keep America Beautiful</a></li>  
+      <li>Urban gardens: <a href="https://communitygarden.org/" target="_blank">American Community Gardening</a></li>  
+      <li>Sustainable forestry: <a href="https://www.fao.org/forestry/en/" target="_blank">FAO Forest Resources</a></li>  
+    </ul>  
+
+    <button id="toggleBtn">Show More Resources</button>  
+    <div id="additionalResources" style="display:none; margin-top:15px;">  
+      <h3>Get Involved & Support</h3>  
+      <ul>  
+        <li><a href="https://www.volunteermatch.org/" target="_blank">Volunteer Opportunities</a></li>  
+        <li><a href="https://support.worldwildlife.org/" target="_blank">Support WWF</a></li>  
+        <li><a href="https://www.greenpeace.org/" target="_blank">Support Greenpeace</a></li>  
+      </ul>  
+      <p>For more info or local assistance, contact us!</p>  
+    </div>  
+  </section>  
+
+  <footer>  
+    <p>&copy; 2025 Our Community for Environmental Sustainability</p>  
+  </footer>  
+
+  <script src="sou.js"></script>  
+</body>  
+</html>  
